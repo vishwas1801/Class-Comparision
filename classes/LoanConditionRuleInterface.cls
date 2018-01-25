@@ -1,3 +1,0 @@
-public interface LoanConditionRuleInterface {
-	Loan_Condition_Checklist__c applyRuleAndCreateLoanCondition(LoanConditionGenerationCriteria loanConditionGenerationCriteria);
-}

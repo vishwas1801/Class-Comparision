@@ -1,3 +1,0 @@
-public interface ChecklistItemRuleInterface {
-	Checklist_Item__c applyRuleAndCreateChecklistItem(ChecklistItemGenerationCriteria checklistItemGenerationCriteria);
-}
