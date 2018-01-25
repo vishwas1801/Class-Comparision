@@ -1,0 +1,3 @@
+public interface LoanConditionElementsEvaluatorInterface {
+	void flagApplicationIfRequiredLoanConditionElementsCompleted(List<Loan_Condition_Element__c> loanConditionElements);
+}
