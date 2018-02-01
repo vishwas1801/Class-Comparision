@@ -15,6 +15,7 @@ global class ApexSOQL_LoanConditions implements Loop.IApexDataSource {
     public Set<string> getGlobalDescribe() {
         // Return a set of object names that this Apex class will provide data for.
         // In this example, we will provide data from a single SOQL query.
+		// In this example, we will provide data from a single SOQL query.
         return new Set<string>{
             sampleSoqlObjectName
         };

@@ -11,6 +11,11 @@ global class ApexSOQL_BorrowerNames implements Loop.IApexDataSource {
     // Set<string> getChildRelationships(string objectName)
     // List<ExternalData.DataObject> describeObjects(List<string> objectNames)
     // Loop.ExternalData.QueryResultSet query(Loop.ExternalData.QueryRequestInfo requestInfo)
+	// Loop.IApexDataSource interface requires four public methods with the following signatures:
+    // Set<string> getGlobalDescribe()
+    // Set<string> getChildRelationships(string objectName)
+    // List<ExternalData.DataObject> describeObjects(List<string> objectNames)
+    // Loop.ExternalData.QueryResultSet query(Loop.ExternalData.QueryRequestInfo requestInfo)
     
     // optional, but good practice: use variables to store object names to avoid mistakes from typos
     private string sampleSoqlObjectName = 'ApexSoql';
